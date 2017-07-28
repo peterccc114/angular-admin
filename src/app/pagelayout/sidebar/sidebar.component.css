@@ -1,0 +1,18 @@
+.list-group-item {
+    border-radius: 0;
+    background-color: #101010;
+    color: #ccc;
+    border-left: 0;
+    border-right: 0;
+    border-color: #2c2c2c;
+    white-space: nowrap;
+    font-size:20px;
+}
+
+.nav-list li>.arrow {
+    display: none;
+    position: absolute;
+    top: 8px;
+    right: 1px;
+    z-index: 1027;
+}
