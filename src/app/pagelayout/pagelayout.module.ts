@@ -1,13 +1,10 @@
-import { NgModule }           from '@angular/core';
-import { CommonModule }       from '@angular/common';
-import { SidebarComponent }   from './sidebar/sidebar.component';
-import { HeaderbarComponent } from './headerbar/headerbar.component';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [SidebarComponent, HeaderbarComponent],
-  exports: [SidebarComponent, HeaderbarComponent]
+  declarations: []
 })
 export class PagelayoutModule { }

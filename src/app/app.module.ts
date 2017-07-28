@@ -1,24 +1,26 @@
-import { BrowserModule }       from '@angular/platform-browser';
-import { NgModule }            from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import { AppComponent }        from './app.component';
+import { AppComponent } from './app.component';
 import { PagelayoutComponent } from './pagelayout/pagelayout.component';
-import { HeaderBarComponent }  from './pagelayout/header-bar/header-bar.component';
-import { SideBarComponent }    from './pagelayout/side-bar/side-bar.component';
-import { SidebarService }      from './sidebar.service';
+import { SidebqrComponent } from './sidebqr/sidebqr.component';
+import { SidebarComponent } from './pagelayout/src/app/pagelayout/sidebar/sidebar.component';
+import { TablesComponent } from './tables/tables.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PagelayoutComponent,
-    HeaderBarComponent,
-    SideBarComponent,
-    SidebarService
+    SidebqrComponent,
+    SidebarComponent,
+    TablesComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [SidebarService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

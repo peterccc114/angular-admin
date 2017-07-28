@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class AngularAdminPage {
+export class AngularDashPage {
   navigateTo() {
     return browser.get('/');
   }

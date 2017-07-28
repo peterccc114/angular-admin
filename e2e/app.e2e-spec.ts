@@ -1,10 +1,10 @@
-import { AngularAdminPage } from './app.po';
+import { AngularDashPage } from './app.po';
 
-describe('angular-admin App', () => {
-  let page: AngularAdminPage;
+describe('angular-dash App', () => {
+  let page: AngularDashPage;
 
   beforeEach(() => {
-    page = new AngularAdminPage();
+    page = new AngularDashPage();
   });
 
   it('should display welcome message', () => {
